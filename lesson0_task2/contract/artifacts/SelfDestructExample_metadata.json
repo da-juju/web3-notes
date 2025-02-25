@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/自毁合约.sol": "SelfDestructExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/自毁合约.sol": {
+			"keccak256": "0x37f1784f648939eb485d4a65d410dc12eaa582592bbbf680dae0f2e4364a4010",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a811c32aa1dd44e3ae330b580a73efc45a8a2629112ab0d4de166ebc000045b5",
+				"dweb:/ipfs/QmSVkLuJnW7o3BRUTr2KCwKjwPkxD3PfgZckAS5Gc1VdTs"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "exapple1",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/Mapping常用方法.sol": "MyMapping"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/Mapping常用方法.sol": {
+			"keccak256": "0xd90b0091be01c41c681aff0646c11b84fec86c0a2f210a3617624ef17832913e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://861798a5fe8a6efd08351a104e229c4ec64f94fe3b9a62a3c346d7664002160a",
+				"dweb:/ipfs/QmYQHXgqoRMZpTiCMfL8Y2728Ai8KuVJr4E3egEhcJygpc"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/7.Gas.sol": "Gas"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/7.Gas.sol": {
+			"keccak256": "0xe1a31f895942e4681630dbc0152fcf376a9972805e086cdd1634d85a8e82176c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b61dee1e095201ef92cfb426fa914d47deb2612d281bb1aa9d41f867678a4388",
+				"dweb:/ipfs/QmQgNXQqZsjLpMUSPTefUsgitW5QPuKjsR2gPypU4kyt7i"
+			]
+		}
+	},
+	"version": 1
+}

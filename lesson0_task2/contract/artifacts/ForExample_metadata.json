@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "forDemo",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/for遍历数组.sol": "ForExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/for遍历数组.sol": {
+			"keccak256": "0xd678ab9b00ddf6d13afd3c73d989e1b8973cc80f524472c6cd5e487b9fb40271",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b94bfe94bca8f4b45c967b0a198f2202dc739c9b88234d3e4844f29241fe4353",
+				"dweb:/ipfs/QmTEt62mpjUmmiBaKq3vJCgG334w59apfP4HxsDghNBXNZ"
+			]
+		}
+	},
+	"version": 1
+}
