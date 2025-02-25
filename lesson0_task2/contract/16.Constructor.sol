@@ -3,8 +3,8 @@ pragma solidity ^0.8.7;
 
 
 // 构造函数是在合约创建时执行的可选函数
-contract  MyContruct {
-    
+contract  MyContract {
+
     string public text;
     constructor(string memory _text){
         text = _text;
@@ -30,7 +30,7 @@ contract Y {
     }
 }
 
-// 有两种方法可以使用参数初始化父合约 
+// 有两种方法可以使用参数初始化父合约
 
 // 方式一：在继承列表中传递参数.
 contract B is X("Input to X"), Y("Input to Y") {}
