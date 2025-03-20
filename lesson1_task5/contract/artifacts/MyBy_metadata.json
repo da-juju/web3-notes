@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Mybytes.sol": "MyBy"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Mybytes.sol": {
+			"keccak256": "0x95c76267a36821364a7c4b9044a0e3f27d6ad0b60ebe524803c8939b5a309dfc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dd8e2e297708cd10ef06fe4c009be372e4e3c2d61d2ac9f48181710095fbd09a",
+				"dweb:/ipfs/Qma7frkAFShw2bdcryt9MvGHM9pSAAg4btCoig849hEDug"
+			]
+		}
+	},
+	"version": 1
+}
