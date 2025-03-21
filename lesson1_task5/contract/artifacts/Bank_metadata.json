@@ -74,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/Bank.sol": "Bank"
+			"Bank.sol": "Bank"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -88,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/Bank.sol": {
-			"keccak256": "0x8b244c30c6da1c5348803731ce286d5de377ac048871272f6b301cd53976f8d4",
+		"Bank.sol": {
+			"keccak256": "0x8497db7bc05c04088b43c33ed702b7bc9a2ac13aea13b1504c4ad78523a620cb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a179f6d06309ff9d5bba3e409b67c0a2c651a8f087afc6431e9f125cbcdf8a70",
-				"dweb:/ipfs/QmPNPsPjd9bq9dFVkPrsVPrDsCrrQD9Dh3vLRqjBytKE2x"
+				"bzz-raw://4558fedf129c12d651d36c8f3f1fb3f8411b81701ac30edc4dc98cc129507459",
+				"dweb:/ipfs/QmR74bi3thPUVUE4Su5gXYVm9a8CAuLyj5m8UZCPULJCG4"
 			]
 		}
 	},
