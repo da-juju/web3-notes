@@ -1,0 +1,11 @@
+app:
+  name: myapp
+  port: 8000
+
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: 123456
+  scheme: go_web
+  
