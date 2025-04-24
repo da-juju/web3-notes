@@ -5,7 +5,6 @@ import (
 	"context"
 	"crypto/ecdsa"
 	"fmt"
-	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
@@ -22,7 +21,7 @@ func Deploy() {
 	client := GetClient()
 
 	// 创建私钥
-	privateKey, err := crypto.HexToECDSA("1cfbd8cb8165a85eae14834992524bdf8cb058fb4d32f814ee3f0fa565e1e775")
+	privateKey, err := crypto.HexToECDSA("your-private-key")
 	if err != nil {
 		log.Fatalf("Failed to create private key: %v", err)
 	}
@@ -76,7 +75,7 @@ func CreateContractInstance() *contract.Stroage {
 func CallContract() {
 	instance := CreateContractInstance()
 	// 初始化交易opt实例
-	privateKey, err := crypto.HexToECDSA("1cfbd8cb8165a85eae14834992524bdf8cb058fb4d32f814ee3f0fa565e1e775")
+	privateKey, err := crypto.HexToECDSA("your-private-key")
 	if err != nil {
 		log.Fatalf("Failed to create private key: %v", err)
 	}

@@ -16,8 +16,7 @@ func EthTx() {
 	client := GetClient()
 
 	// 将十六进制的私钥字符串转换为ECDSA私钥对象。如果转换失败，记录错误并退出程序
-	//privateKey, err := crypto.HexToECDSA("fad9c8855b740a0b7ed4c221dbad0f33a83a49cad6b3fe8d5817ac83d38b6a19")
-	privateKey, err := crypto.HexToECDSA("1cfbd8cb8165a85eae14834992524bdf8cb058fb4d32f814ee3f0fa565e1e775")
+	privateKey, err := crypto.HexToECDSA("your-private-key")
 	if err != nil {
 		log.Fatal(err)
 	}
